@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bear Market Beasts</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <header>
+        <h1>Bear Market Beasts</h1>
+    </header>
+    <nav>
+        <!-- Navigation links go here -->
+    </nav>
+    <main>
+        <button onclick="filterImages('all')">All</button>
+        <button onclick="filterImages('animals')">Animals</button>
+        <button onclick="filterImages('cryptids')">Cryptids</button>
+        <button onclick="filterImages('cryptwits')">Cryptwits</button>
+        <button onclick="filterImages('hats')">Hats</button>
+        <button onclick="filterImages('glasses')">Glasses</button>
+        <button onclick="filterImages('masks')">Masks</button>
+        <button onclick="filterImages('clothes')">Clothes</button>
+
+        <div class="image-gallery">
+            <div class="category" data-category="animals">
+                <h3>Animals</h3>
+                <p> Few things authentically capture crypto like the term "Animal Spirits". How many of CTs elite present themselves as animals rather than people? There's a quote that gets tossed around my discord every week or so that goes,
+                </p>
+                <p>
+                "im not sure why, but when the markets are in an uptrend, i get very euphoric. I cant sit straight in my chair, my heart is beating fast and I cant think rationally"
+                </p>
+                
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Bat.png?raw=true" alt="Bat">
+                    <div class="description">
+                        <p>I had originally created a 1/1 bat in the $BLUR colors because everyone in NFTs brings up their "vampire attack" on Opensea. But, it felt insulting towards Blur, when in reality Opensea dropped the ball.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Bear.png?raw=true" alt="Polar Bear">
+                    <div class="description">
+                        <p>Like our bull, the bear acts as a totem, not to prosperity, but to being really fucking lame. Just dreadful weak animals that feed off impending disaster, worry, and fear. There's nothing worse than being a strict financial bear.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Bobcat.png?raw=true" alt="Bobcat">
+                    <div class="description">
+                        <p>There's actually three distinct types of bears, 4(ish) if you count the cryptids as well. Not all animals got variety types but I feel like I'm more scare of certain bears than others and that should be considered for something.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Bull.png?raw=true alt="Bull">
+                    <div class="description">
+                        <p>In the financial markets, the bull is a totem of prosperity, its horns piercing the uncertainty to herald a time of abundance and wealth. It embodies the unyielding vigor of the investor, charging with a blind ferocity that leaves the rest of the world questioning their sanity.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Coyote.png?raw=true alt="Coyote">
+                    <div class="description">
+                        <p>When I was younger I could hear coyotes howling, yipping, and screaming at each other behind my house. Some nights they'd work themselves into a frenzy and suddenly it would get quite again - whatever rodent or deer they hunted bleating for its last few breaths</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Ferret.png?raw=true alt="Ferret">
+                    <div class="description">
+                        <p>If you've never had the displeasure of smelling the inside of a house where ferrets live I'd suggest you keep it that way. They're cute as hell and fun to play with, but so are dogs and they don't smell half as bad</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/FieldMouse.png?raw=true alt="Field Mouse">
+                    <div class="description">
+                        <p>Mice were the genesis of this collection. Someone in our discord use Dalle to create a "pixelated mouse wearing a hoodie" and it was the first time I'd seen Dalle output actual pixel art rather than blocky approximations, so I wanted to see what I could do with it.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Fox.png?raw=true alt="Fox">
+                    <div class="description">
+                        <p>There are a lot of ways to be "like a fox". You can be like a fox on the run, clever as a fox, sly as a fox, crazy as a fox. None of them sound like very positive things to be like, but that shouldn't take away from the fact that foxes are rad as hell.  </p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Frog.png?raw=true alt="Frog">
+                    <div class="description">
+                        <p>First the alt-right had him, then he became the darling of crypto twitter (which is also alt-right if you read WAPO). No animal brings joy to the heart like Pepe the frog. And no collection of animal spirits would be complete without him.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Goat.png?raw=true alt="Goat">
+                    <div class="description">
+                        <p>Greatest of all time. I'm the G.O.A.T. You're the GOAT. We're all GOATs when we're describing ourselves. Little hype beasts cheering ourselves on to do more, to make more money, to break away from the 9-5 while we gamble away our last few pennies.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Husky.png?raw=true alt="Husky">
+                    <div class="description">
+                        <p>Look, is this technically just a variation of a wolf? Maybe, but I did make some slight technical changes for the pixels and thats has a real effect if you put them side by side.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Koala.png?raw=true alt="Koala">
+                    <div class="description">
+                        <p>Fun fact: a lot of Koalas have chlamydia. Sounds like my ex-wife.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Mouse.png?raw=true alt="Mouse">
+                    <div class="description">
+                        <p>Anonymice doesn't get the credit it deserves. If people hadn't been so fanatical about the "ponzi" and just appreciated it for what it was, a novel piece of on-chain art, all of society would be better off for it.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/OhWaWa.png?raw=true alt="Oh Wa Wa">
+                    <div class="description">
+                        <p>I made this one up, but I also think I based it off the vague memory of an animal that exists. If you know what it is please DM me. </p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Panda.png?raw=true alt="Panda">
+                    <div class="description">
+                        <p>See also, "Bear".</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Penguin.png?raw=true alt="Penguin">
+                    <div class="description">
+                        <p>Pudgy Penguins, god damn, what a come back story. OGs know how bad all of that was and a lot of OGs made a huge amount on their come back story. There's little doubt in my mind that in the future when normal people think of idiots buying jpegs for thousands of dollars, they'll think "Pudgy Penguins."</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/PolarBear.png?raw=true alt="Polar Bear">
+                    <div class="description">
+                        <p>See also, "Panda".</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Pug.png?raw=true alt="Pug">
+                    <div class="description">
+                        <p>There's a group of dog breeders trying to make pugs look like normal dogs and fix their breathing problems. They're hideous little things. God speed to the breeders. </p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Rabbit.png?raw=true alt="Rabbit">
+                    <div class="description">
+                        <p>Greatest of all time. I'm the G.O.A.T. You're the GOAT. We're all GOATs when we're describing ourselves. Little hype beasts cheering ourselves on to do more, to make more money, to break away from the 9-5 while we gamble away our last few pennies.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Raccoon.png?raw=true alt="Raccoon">
+                    <div class="description">
+                        <p>Trash pandas, with their cute little paws. We need a raccoon collection.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Rat.png?raw=truee alt="Rat">
+                    <div class="description">
+                        <p>Change da world. My final message. Goodbye.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/RedPanda.png?raw=true alt="Red Panda">
+                    <div class="description">
+                        <p>I saw these at a zoo in San Francisco once and they  </p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Rooster.png?raw=true alt="Rooster">
+                    <div class="description">
+                        <p>Something funny about cocks</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/ShibaInu.png?raw=true alt="Shiba Inu">
+                    <div class="description">
+                        <p>The most iconic dog in all of crypto. Everyone and their mother has owned a bit of $DOGE at one point or another. Every animal collection should have an omage toward the shiba inu</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Sloth.png?raw=true alt="Sloth">
+                    <div class="description">
+                        <p>Women loves sloths. I've never met a woman who doesn't like sloths. Its as universal as them wanting to be chocked.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Squirrel.png?raw=true alt="Squirrel">
+                    <div class="description">
+                        <p>Do you have black squirrels, brown squirrels, or ground squirrels where you live? </p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Stoat.png?raw=true alt="Stoat">
+                    <div class="description">
+                        <p>There's a wonderful deck-building rogue-lite called Inscryption where the first friendly character you interact with is a stoat. If you like deck-building and mystery you'll love Inscryption</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/WildCat.png?raw=true alt="Wild Cat">
+                    <div class="description">
+                        <p>My high school mascot. Just the most pathetic choice for a mascot.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Wolf.png?raw=true alt="Wolf">
+                    <div class="description">
+                        <p>HSAKA!</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/bodies/Xavel.png?raw=true alt="Xavel">
+                    <div class="description">
+                        <p>Challenged myself to make up an animal that fit the bounds of the pixel outline. I hope you all like it.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="category" data-category="hats">
+                <h3>Hats</h3>
+                <p> These are hats. 
+                </p>               
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/hats/Bandana.png?raw=true alt="Bandana">
+                    <div class="description">
+                        <p>Some sort of renegade</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/hats/Beanies.gif?raw=true alt="Beanie">
+                    <div class="description">
+                        <p>The three beanies come directly from Punks. Every pixel art collection has a punk trait. They actually force you to use a punk trait in pixel collection on Ethereum. Vitalik held a gun to my head</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/hats/Goggles.png?raw=true alt="Goggles">
+                    <div class="description">
+                        <p>That pelican from a rescue down under is an absolute bad-ass</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/hats/Hats.gif?raw=true alt="Hat">
+                    <div class="description">
+                        <p>You have to send in about a million postcards to get the ultra-rare variation of this hat.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/hats/ezgif-2-b5ce241117.gif?raw=true alt="Painters Cap">
+                    <div class="description">
+                        <p>Just a couple of the most iconic brothers wearing painters cap and taking names.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/hats/Straw%20Hat.png?raw=true alt="Straw Hat">
+                    <div class="description">
+                        <p>You're going to be king of the pirates</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/hats/Law%20Cap.png?raw=true alt="Fur Hat">
+                    <div class="description">
+                        <p>Room - Shambles</p>
+                    </div>
+                </div>
+            </div>
+            <div class="category" data-category="masks">
+                <h3>Masks</h3>
+                <p> You got something to hide? 
+                </p>               
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/masks/Aren.png?raw=true alt="Mercenary">
+                    <div class="description">
+                        <p>I thought she was a man up for an incredibly long time. Never played a franchise game, but boy was it a blast to hit B in Smash Bros.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/masks/DystoMask.png?raw=true alt="Dysto Mask">
+                    <div class="description">
+                        <p>Ever heard of DystoPunks? I hadn't until a few days ago. Wow, what a color palette. Really impressive stuff. I had to steal a trait. </p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/masks/HalfSash.png?raw=true alt="Half Sash">
+                    <div class="description">
+                        <p>That pelican from a rescue down under is an absolute bad-ass</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/masks/Hau.png?raw=true alt="Hau">
+                    <div class="description">
+                        <p>The number of memes out of bionicles is absurd. What an obscure corner of my childhood. </p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/masks/MFDoom.png?raw=true alt="MF Doom">
+                    <div class="description">
+                        <p>RIP to a legend.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/masks/ripandtear.gif?raw=true alt="Mood Man">
+                    <div class="description">
+                        <p>Doesn't matter how you do it; Rip & Tear. </p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/masks/OooohWee.png?raw=true alt="Hyotokko Mask">
+                    <div class="description">
+                        <p>When you make swords that hunt demons you've got to protect your identity. Might as well look like a goof while you do it.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/masks/Power%20Stranger.png?raw=true alt="Power Stranger">
+                    <div class="description">
+                        <p>Mighty Morphin' Power Strangers</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/masks/RaiderMask.png?raw=true alt="Raider Mask">
+                    <div class="description">
+                        <p>The best pixel art in the space is Genuine Undead. This is an objective truth. If you don't know how pixel art is made you don't get to have an opinion here.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/masks/Ranger.png?raw=true alt="Ranger">
+                    <div class="description">
+                        <p>I can't believe they named the main character after the franchise. This is Zelda all over again.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/masks/Smile.png?raw=true alt="Smile">
+                    <div class="description">
+                        <p>Will you just let me be silly for a second? There's this dread so ancient in me</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/masks/To%20War.png?raw=true alt="To War">
+                    <div class="description">
+                        <p>You have no choice. Pick up your keyboards and fight.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="category" data-category="glasses">
+                <h3>Glasses</h3>
+                <p> 50% of people would look a bit better with glasses on their face. You should try it. No one can shit on you for wearing blue light glasses anymore. If someone tries to "Well actually..." about them working you can just say "shut up, dork. No one cares" You'll immediately win the conversation. 
+                </p>               
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/glasses/3D.png?raw=true" alt="3D">
+                    <div class="description">
+                        <p>Every collection has a pair of 3D glasses. It's just the name of the game</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/glasses/Band.png?raw=true" alt="Eye Band">
+                    <div class="description">
+                        <p>Captain of the 13th division and kind of a bad ass. Don't know why they had to make the only black man evil.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/glasses/CoolGlasses.png?raw=true" alt="Cool Glasses">
+                    <div class="description">
+                        <p>Every cool guy needs a pair of glasses to throw off or put on in order to transition into the next scene</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/glasses/Cybernetic%20Implacts.png?raw=true" alt="Cybernetic Implants">
+                    <div class="description">
+                        <p>You're gonna need some more chrome.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/glasses/Dallas.png?raw=true" alt="Buyers Club">
+                    <div class="description">
+                        <p>It's a really good movie.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src=https://github.com/Zer0Learn/simpleisite/blob/main/images/glasses/FireEyes.png?raw=true alt="Fire Eyes">
+                    <div class="description">
+                        <p>I stole these from 1337 skulls. Another really well styled pixel art collection.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/glasses/Glasses.png?raw=true" alt="Glasses">
+                    <div class="description">
+                        <p>The very first render of the AI mouse had a pair of glasses that looked just like this. </p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/glasses/Grey%20Spectacles.png?raw=true" alt="Salary Man Goggles">
+                    <div class="description">
+                        <p>I'm going to cry when he dies. "I'm clocking out by six. No matter what." He was so real for that.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/glasses/Nouns.png?raw=true" alt="Nouns">
+                    <div class="description">
+                        <p>Every in NFTs knows what this is</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/glasses/ReadingGlasses.png?raw=true" alt="Reading Glasses">
+                    <div class="description">
+                        <p>Do you even read, bro?</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/glasses/Stampede%20Glasses.png?raw=true" alt="Stampede Glasses">
+                    <div class="description">
+                        <p>"The ticket to the future, is always blank."</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/glasses/Toppa.png?raw=true" alt="Toppa">
+                    <div class="description">
+                        <p>Drill baby, drill.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/glasses/TuxMask.png?raw=true" alt="Tuxedo Mask">
+                    <div class="description">
+                        <p>"Sailor Moon Hentai Porn Free"</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/glasses/Wrapped.png?raw=true" alt="Wrapped">
+                    <div class="description">
+                        <p>The only Gods is money and bitches.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/glasses/XCopy.png?raw=true" alt="X-Copy">
+                    <div class="description">
+                        <p>I made a lot of money minting this guys art. It's the least I could do.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="category" data-category="cryptids">
+                <h3>Cryptids</h3>
+                <p> Originally, this collection was based around mythic creatures from (mostly American) history. But as I spent more time refining my follows on Twitter I noticed a ton of them were "animals." Went I think of CL207 or Boffin, I don't think of people. I imagine their PFPs and started to question if that's how myths are made. Anyway, here are some pixel renditions of things that terrify people living in the Appalachians. 
+                </p>               
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptids/Chupacabra.png?raw=true" alt="Chupacabra">
+                    <div class="description">
+                        <p>The Chupacabra, whose name whispers 'goat-sucker' in Spanish, is a creature of vampiric legend. It is said to lurk in the Americas, from the arid stretches of Puerto Rico to the vast deserts of Mexico and beyond. With eyes that burn like coals and a gait that is both a slink and a prowl, it hunts under the cloak of darkness.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptids/DCDemonCat.png?raw=true" alt="DC Demon Cat">
+                    <div class="description">
+                        <p>The Demon Cat, often abbreviated as "D.C.," is said to haunt the underground corridors and crypts of the Capitol building. It appears as an ordinary black cat, but according to legend, it can swell to the size of a tiger when startled or threatened. Its eyes are described as glowing with an otherworldly fire, and it has the uncanny ability to vanish into thin air when approached.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptids/Flatwoods%20Monster.png?raw=true" alt="Flatwoods Monster">
+                    <div class="description">
+                        <p>This specter from the stars, some say, wore a skirt-like exoskeleton or hovered above the ground, emanating a sickening mist that choked the air and seared the nostrils. Its presence was an omen, a silent siren that filled the night with an electric tension, a prelude to a close encounter that would etch itself into the annals of extraterrestrial lore.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptids/Hodag.png?raw=true" alt="Hodag">
+                    <div class="description">
+                        <p>Whispers among the old lumberjacks spun a tale of the Hodag as a beast of formidable strength, with a penchant for mischief and malice, feasting not only on the flesh of unfortunate animals but also, it is said, on the pure fear of those who encounter it. The air around it is thick with the scent of pine and the unspoken dread of those who tread too close to its lair.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptids/Jackelope.png?raw=true" alt="Jackelope">
+                    <div class="description">
+                        <p>The jackalope is a mythical animal of North American folklore described as a jackrabbit with antelope horns. The story of the jackalope has its origins in American popular culture, likely stemming from sightings of rabbits infected with the Shope papillomavirus, which causes the growth of horn-like tumors in various places on the rabbit's head and body.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptids/Loveland%20Frog%20Man.png?raw=true" alt="Loveland Frog Man">
+                    <div class="description">
+                        <p>Legend tells that on rare, hushed evenings, the Frogman emerges from his aquatic lair, perhaps once a prince or a guardian of ancient, sunken treasures, now bound to the riverbanks of Loveland. Some say it wields a wand-like object, casting an eerie light and bewitching the air with strange sparks as it lopes through the fog.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptids/Ozark%20Howler.png?raw=true" alt="Ozark Howler">
+                    <div class="description">
+                        <p>The Howler, as the name suggests, is notorious for its spine-chilling cry—a sound that combines the howl of a wolf, the wail of a human in distress, and the growl of a rabid dog. This eerie call is said to echo through the Ozarks on moonless nights, a harbinger of misfortune or a call to heed the wild's untamed nature.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptids/Piasa.png?raw=true" alt="Piasa">
+                    <div class="description">
+                        <p>The most famous depiction of the Piasa is a massive pictograph that once existed on the cliffs of the Mississippi River. This ancient mural, first recorded by French explorers in the 17th century, portrayed the Piasa with a man-eating appetite, instilling dread in all who navigated the river's winding path.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptids/Snawfus.png?raw=true" alt="Snawfus">
+                    <div class="description">
+                        <p>This creature is not merely a beast, but a guardian of the wilderness, a symbol of the untamed world. The Snawfus' antlers are told to carry with them the buds of spring and the blooms of summer, and as it walks, it spreads the life of the forest, coaxing greenery and flowers to spring forth from the earth with each step. Wherever the Snawfus treads, growth and vitality are said to follow, a walking emblem of the earth's boundless creativity.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptids/The%20Painted%20Wolf.png?raw=true" alt="The Painted Wolf">
+                    <div class="description">
+                        <p>Amaterasu is often depicted as a radiant and benevolent being, whose beauty and warmth are unrivaled. She is the bringer of light, banishing darkness and nurturing life with her gentle, life-giving rays. Her presence is synonymous with the vitality and sustenance that the sun provides, making her a deity of agriculture and fertility as well.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="category" data-category="cryptwits">
+                <h3>Cryptwits</h3>
+                <p> Do  you even know the lore? There is so much to unpack about CT your first temptation is likely to ignore it, but you can't because then you won't know who to follow and who to avoid. Over time, you see the same names being mentioned in awe or disgust and eventually you build up a mental image of a stranger who you can only visualize as a fox or a frog. And that, I'm assuming, is how legends are born. 
+                </p>               
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/BitBrent.png?raw=true" alt="BitBrent">
+                    <div class="description">
+                        <p>In a realm where the hearth is warm and laughter abounds, the wee beastie BitBrent reigns supreme. Its fleece glows like fresh snow under a winter sun, and upon its noble brow sits a festive hat, spun from the joy of countless celebrations. As the herald of play, it keeps watch over its realm with bright, merry eyes.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/Boffin.png?raw=true" alt="Boffin">
+                    <div class="description">
+                        <p>Boffin witnessed the birth of Solana and the dance of L2s, its footsteps sowing the seeds of life across the cosmos(chain). It roamed through the eons, a silent guardian over every bit of alpha the world has ever whispered. Neither bound by time nor slave to fate, its spirit watches over all NFTs, a reminder of the eternal watchfulness that predates the dawn of everything and sees into the heart of all there is.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/BogFather.png?raw=true" alt="BogFather">
+                    <div class="description">
+                        <p>This specter from the stars, some say, wore a skirt-like exoskeleton or hovered above the ground, emanating a sickening mist that choked the air and seared the nostrils. Its presence was an omen, a silent siren that filled the night with an electric tension, a prelude to a close encounter that would etch itself into the annals of extraterrestrial lore.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/CL207.png?raw=true" alt="Cl207">
+                    <div class="description">
+                        <p>lmeow</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/Davis.png?raw=true" alt="Davis">
+                    <div class="description">
+                        <p>The jackalope is a mythical animal of North American folklore described as a jackrabbit with antelope horns. The story of the jackalope has its origins in American popular culture, likely stemming from sightings of rabbits infected with the Shope papillomavirus, which causes the growth of horn-like tumors in various places on the rabbit's head and body.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/Don%20Alt.png?raw=true" alt="Don Alt">
+                    <div class="description">
+                        <p>Legend tells that on rare, hushed evenings, the Frogman emerges from his aquatic lair, perhaps once a prince or a guardian of ancient, sunken treasures, now bound to the riverbanks of Loveland. Some say it wields a wand-like object, casting an eerie light and bewitching the air with strange sparks as it lopes through the fog.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/Droober.png?raw=true" alt="Droober">
+                    <div class="description">
+                        <p>The Howler, as the name suggests, is notorious for its spine-chilling cry—a sound that combines the howl of a wolf, the wail of a human in distress, and the growl of a rabid dog. This eerie call is said to echo through the Ozarks on moonless nights, a harbinger of misfortune or a call to heed the wild's untamed nature.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/FonkyDonk.png?raw=true" alt="FonkyDonk">
+                    <div class="description">
+                        <p>The most famous depiction of the Piasa is a massive pictograph that once existed on the cliffs of the Mississippi River. This ancient mural, first recorded by French explorers in the 17th century, portrayed the Piasa with a man-eating appetite, instilling dread in all who navigated the river's winding path.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/Hsaka.png?raw=true" alt="Hsaka">
+                    <div class="description">
+                        <p>In the twilight of ancient markets and the dawn of commerce, there roams Hsaka, a wolf with a pelt as silver as the coins of old and eyes that glint with the wisdom of ages. This venerable being holds within it an ocean of financial acumen, from the bartering systems of yore to the complex digital currencies of the future. Hsaka's howl resonates through the forested valleys of the economy, a sound that oscillates between the lows of economic downturns and the highs of fiscal surges. Merchants and traders of legend would whisper its name in reverence, seeking the wolf's counsel to navigate the ever-shifting rivers of wealth and prosperity. With a nose for opportunity and the cunning to outwit any bearish trend, Hsaka moves with the grace of a bullish spirit, its shadow cast long in the moonlight of an ever-changing world, a timeless guardian of wealth and the cycles of fortune.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/InverseBrah.png?raw=true" alt="InverseBrah">
+                    <div class="description">
+                        <p>In the playful shadows of urban tales and suburban legends, there flits a creature known as InverseBrah, a sprite of mischief and revelation. Small in stature but boundless in its impish energy, the InverseBrah is a master of harmless pranks and a revealer of truths often concealed</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/MouseDev.png?raw=true" alt="MouseDev">
+                    <div class="description">
+                        <p>In the digital labyrinths of circuit boards and within the hushed, flickering glow of computer screens, there scurries a mythical creature known as MouseDev. This tiny, enigmatic being is a patron of programmers and a guardian of the vast realms of cyberspace..</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/Rektdiomedes.png?raw=true" alt="Rektdiomedes">
+                    <div class="description">
+                        <p>Amaterasu is often depicted as a radiant and benevolent being, whose beauty and warmth are unrivaled. She is the bringer of light, banishing darkness and nurturing life with her gentle, life-giving rays. Her presence is synonymous with the vitality and sustenance that the sun provides, making her a deity of agriculture and fertility as well.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/Rhino.png?raw=true" alt="Rhino">
+                    <div class="description">
+                        <p>The most famous depiction of the Piasa is a massive pictograph that once existed on the cliffs of the Mississippi River. This ancient mural, first recorded by French explorers in the 17th century, portrayed the Piasa with a man-eating appetite, instilling dread in all who navigated the river's winding path.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/Tervo.png?raw=true" alt="Tervo">
+                    <div class="description">
+                        <p>This creature is not merely a beast, but a guardian of the wilderness, a symbol of the untamed world. The Snawfus' antlers are told to carry with them the buds of spring and the blooms of summer, and as it walks, it spreads the life of the forest, coaxing greenery and flowers to spring forth from the earth with each step. Wherever the Snawfus treads, growth and vitality are said to follow, a walking emblem of the earth's boundless creativity.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/GayBear.png?raw=true" alt="The Bear">
+                    <div class="description">
+                        <p>This creature is not merely a beast, but a guardian of the wilderness, a symbol of the untamed world. The Snawfus' antlers are told to carry with them the buds of spring and the blooms of summer, and as it walks, it spreads the life of the forest, coaxing greenery and flowers to spring forth from the earth with each step. Wherever the Snawfus treads, growth and vitality are said to follow, a walking emblem of the earth's boundless creativity.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/The%20Bull.png?raw=true" alt="The Bull">
+                    <div class="description">
+                        <p>Amaterasu is often depicted as a radiant and benevolent being, whose beauty and warmth are unrivaled. She is the bringer of light, banishing darkness and nurturing life with her gentle, life-giving rays. Her presence is synonymous with the vitality and sustenance that the sun provides, making her a deity of agriculture and fertility as well.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/Cryptwits/Tolks.png?raw=true" alt="Tolks">
+                    <div class="description">
+                        <p>The Tervo is a vibrant creature of modern folklore, born from the buzz of Monster Energy drinks and the sun-soaked thrill of the chase for success. It basks gleefully in endless sunlight, its scales shimmering with the promise of dawn. The Tervo is the epitome of "perma bullish" optimism, a financial phoenix steadfast in the belief that with every market dip comes the inevitable upswing—"making it all back" is its credo. Seen as the maverick spirit of the urban jungle, the Tervo embodies the relentless pursuit of high stakes and the electric rush of a comeback, forever sipping from its can of Monster as it rides the waves of fortune under the ever-watchful sun.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="category" data-category="clothes">
+                <h3>Clothes</h3>
+                <p> Clothes! It's what we wear. 
+                </p>               
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/clothes/collared.gif?raw=true" alt="Collared Jackets">
+                    <div class="description">
+                        <p>These collared jackets were taken from one of the most impressive pixel collections on Ethereum, Moonbirds. Imagine pulling in 65 million and giving your holders a fanny pack while you buy a 15 million dollar mansion. Absolute fucking chad. On the other side, we got the legend Ryan Carson, who, the moment NFTs looked to bottom jumped ship to AI. My only issue with the whole thing is that BoldLeonidas wasn't around to fully capture the comedy</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/clothes/Jackets.gif?raw=true" alt="Jackets">
+                    <div class="description">
+                        <p>I made these, so not much to say about them.</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/clothes/Hoodies.gif?raw=true" alt="Hoodies">
+                    <div class="description">
+                        <p>You gotta have a hoodie in the collection. Ya just gotta. </p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/clothes/Overalls.png?raw=true" alt="Overalls">
+                    <div class="description">
+                        <p>It ain't much, but its honest work. </p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/clothes/Royalty.png?raw=true" alt="Royalty">
+                    <div class="description">
+                        <p> </p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/clothes/sweaters.gif?raw=true" alt="Sweaters">
+                    <div class="description">
+                        <p>run</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/clothes/tanktops.gif?raw=true" alt="Tank Top">
+                    <div class="description">
+                        <p>run</p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/clothes/suit.gif?raw=true" alt="Suits">
+                    <div class="description">
+                        <p>One of these suits is based on the outfit of famous thief, Lupin. The others are not. </p>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://github.com/Zer0Learn/simpleisite/blob/main/images/clothes/zipups.gif?raw=true" alt="Zip-ups">
+                    <div class="description">
+                        <p> you need to understand the following: I am better than you I am smarter than you I am more attractive than you I am happier than you I am stronger than you I am faster than you I am more violent than you I am more successful than you I am more fulfilled than you </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <h2>About Me</h2>
+            <p>This section contains information about you or your website.</p>
+        </section>
+        <section>
+            <h2>My Work</h2>
+            <!-- Content about your work goes here -->
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <!-- Contact information or form goes here -->
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © Your Name</p>
+    </footer>
+    <script src="scripts.js"></script>
+    <script src="filterImages.js"></script>
+</body>
+</html>
